@@ -1,6 +1,6 @@
-import type {CharacterCounterProps} from '../types'
+import type {CharacterCounterProps} from '../../types'
 
-export  function CharacterCount({minWords=25, maxWords=100,  targetReadingTime}: CharacterCounterProps){
+export  function CharacterCount({minWords=25, maxWords=100,  targetReadingTime=2}: CharacterCounterProps){
     
 
     return(
@@ -8,7 +8,7 @@ export  function CharacterCount({minWords=25, maxWords=100,  targetReadingTime}:
         <h3>Words</h3>
         <p>Min: {minWords}</p>
         <p>Max: {maxWords}</p>
-        <p></p>
+        
     </div>
     )
 }

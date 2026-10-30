@@ -1,6 +1,6 @@
 // components/TextInput/TextInput.tsx
 import React from 'react';
-import type{ TextInputProps } from '../types';
+import type{ TextInputProps } from '../../types';
  
 export const TextInput: React.FC<TextInputProps> = ({
   onTextChange,
