@@ -1,3 +1,39 @@
-:root{
-    background-color: gray;
+.app {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 24px;
+  font-family: Arial, sans-serif;
+  background: #f9fafb;
+  border-radius: 12px;
+}
+
+.app textarea {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+.app textarea:focus {
+  outline: 2px solid #3b82f6;
+}
+
+.app p {
+  margin: 8px 0;
+}
+
+.progress {
+  width: 100%;
+  height: 12px;
+  background: #e5e7eb;
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  background: #3b82f6;
+  transition: width 0.2s;
 }
